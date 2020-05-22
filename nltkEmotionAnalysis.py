@@ -1,16 +1,17 @@
 import string
 from collections import Counter
+import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-import matplotlib.pyplot as plt
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 # Reading the data
 text = open('read.txt', encoding='utf-8').read()
-#print("Read Data: " + text)
+# print("Read Data: " + text)
 
 # Converting the letter into lowercase
 lower_case = text.lower()
-#print("Convert Lowercase: " + lower_case)
+# print("Convert Lowercase: " + lower_case)
 
 # Removing Punctuations --> 1
 # Importing String Library
@@ -19,7 +20,7 @@ lower_case = text.lower()
 
 # Removing Punctuations --> 2
 cleaned_text = lower_case.translate(str.maketrans('', '', string.punctuation))
-#print("Remove Punctuation : " + cleaned_text)
+# print("Remove Punctuation : " + cleaned_text)
 
 # Tokenizing
 # Break the sentence into words and save it an array
@@ -40,28 +41,45 @@ emotion_list = []
 with open('emotions.txt', 'r') as file:
     for line in file:
         clear_line = line.replace("\n", '').replace(",", '').replace("'", '').strip()
-        #print(clear_line)
+        # print(clear_line)
         # Separate words and emotions
         # Anything before : save to words and anything after : save to emotion
         word, emotion = clear_line.split(':')
-        #Check our final word is inside this or not
+        # Check our final word is inside this or not
         # print("Word: " + word + " " + "Emotion: " + emotion)
         # If word is present -> Add the emotion to list
         if word in final_words:
             emotion_list.append(emotion)
 
 print(emotion_list)
-#Printing how manytimes they are present
+# Printing how manytimes they are present
 w = Counter(emotion_list)
 print(w)
 
-#Create the bar graph
+
+# Show Positive or Negative
+def sentiment_analyse(sentiment_text):
+    score = SentimentIntensityAnalyzer().polarity_scores(sentiment_text)
+    print(score)
+    neg = score['neg']
+    pos = score['pos']
+    if pos > neg:
+        print("Positive Sentiment")
+    elif pos < neg:
+        print("Negative Sentiment")
+    else:
+        print("Neutral Sentiment")
+
+
+sentiment_analyse(cleaned_text)
+
+# Create the bar graph
 # Key -> What emotions are present
 # Values -> No of times
 fig, ax1 = plt.subplots()
 ax1.bar(w.keys(), w.values())
 # Automatically update the x axis and y axis to make sure all values are presented properly
 fig.autofmt_xdate()
-#Save graph as an image in project
+# Save graph as an image in project
 plt.savefig('nltkGraph.png')
 plt.show()
