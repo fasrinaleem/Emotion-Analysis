@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62af347b-c635-437b-a058-3cde4c56f82c" name="Default Changelist" comment="" />
+    <list default="true" id="62af347b-c635-437b-a058-3cde4c56f82c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nltkEmotionAnalysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +45,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.setting">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sentiment Analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,6 +60,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nltkEmotionAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sentiment Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nltkEmotionAnalysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,8 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.setting" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.nltkEmotionAnalysis" />
+        <item itemvalue="Python.setting" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589987999269</updated>
       <workItem from="1589988034923" duration="5847000" />
-      <workItem from="1590077155675" duration="17820000" />
+      <workItem from="1590077155675" duration="19898000" />
     </task>
     <servers />
   </component>
@@ -113,26 +139,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="639" height="106" key="GridCell.Tab.0.bottom" timestamp="1590180173115">
+    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590182331179">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="639" height="106" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590180173115" />
-    <state width="639" height="106" key="GridCell.Tab.0.center" timestamp="1590180173115">
+    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1590182331179" />
+    <state width="1323" height="106" key="GridCell.Tab.0.bottom" timestamp="1590189636767">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="639" height="106" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590180173115" />
-    <state width="639" height="106" key="GridCell.Tab.0.left" timestamp="1590180173115">
+    <state width="1323" height="106" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590189636767" />
+    <state width="1323" height="106" key="GridCell.Tab.0.center" timestamp="1590189636767">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="639" height="106" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590180173115" />
-    <state width="639" height="106" key="GridCell.Tab.0.right" timestamp="1590180173115">
+    <state width="1323" height="106" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590189636767" />
+    <state width="1323" height="106" key="GridCell.Tab.0.left" timestamp="1590189636767">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="639" height="106" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590180173115" />
-    <state x="300" y="25" key="SettingsEditor" timestamp="1590180046372">
+    <state width="1323" height="106" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590189636767" />
+    <state width="1323" height="106" key="GridCell.Tab.0.right" timestamp="1590189636767">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="300" y="25" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1590180046372" />
+    <state width="1323" height="106" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590189636767" />
+    <state x="300" y="25" key="SettingsEditor" timestamp="1590182245948">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="300" y="25" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1590182245948" />
     <state x="45" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1590077586459">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -143,7 +173,8 @@
     <state x="4" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1590091611649" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis$main.coverage" NAME="main Coverage Results" MODIFIED="1590167660040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis$setting.coverage" NAME="setting Coverage Results" MODIFIED="1590180172993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis$nltkEmotionAnalysis.coverage" NAME="nltkEmotionAnalysis Coverage Results" MODIFIED="1590189570029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis$main.coverage" NAME="main Coverage Results" MODIFIED="1590189636757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis$setting.coverage" NAME="setting Coverage Results" MODIFIED="1590188636014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
