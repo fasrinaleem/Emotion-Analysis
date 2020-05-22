@@ -14,7 +14,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Fsrn\Year 04\CDAP\New Implementation\My Implementation\Sentiment Analysis\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1cB38Tj3nSMIDstxzcMKCrKGnLL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -94,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589987999269</updated>
       <workItem from="1589988034923" duration="5847000" />
-      <workItem from="1590077155675" duration="17237000" />
+      <workItem from="1590077155675" duration="17820000" />
     </task>
     <servers />
   </component>
